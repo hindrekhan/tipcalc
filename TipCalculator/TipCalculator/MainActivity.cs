@@ -47,7 +47,7 @@ namespace TipCalculator
                 return;
             }
 
-            if (money == 0 || tipPerc == 0)
+            if (money == 0)
             {
                 tipValue.Text = "0";
                 total.Text = "0";
